@@ -12,7 +12,17 @@
             <MenuFlyoutItem Text="Informazioni" Clicked="OnInfo_Click" />
         </MenuBarItem>
     </ContentPage.MenuBarItems>
-
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="TextColor" Value="White" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
     <Grid x:Name="Applicazione">
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
@@ -42,11 +52,11 @@
         <Image x:Name="carta7" Grid.Row="0" Grid.Column="6" IsVisible="false" Source="n7.png"/>
         <Image x:Name="carta8" Grid.Row="0" Grid.Column="7" IsVisible="false" Source="n8.png"/>
         <Image x:Name="carta9" Grid.Row="0" Grid.Column="8" IsVisible="false" Source="n9.png"/>
-        <Label x:Name="Prompt" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" TextColor="White">Sposta l'ultima carta dalla riga</Label>
-        <Entry x:Name="Inizio" Grid.Row="3" Grid.Column="3" Keyboard="Numeric" IsSpellCheckEnabled="False" TextColor="White" />
-        <Label x:Name="Prompt1" Grid.Row="3" Grid.Column="4"  TextColor="White">sulla riga</Label>
-        <Entry x:Name="Fine" Grid.Row="3" Grid.Column="5" Keyboard="Numeric" IsSpellCheckEnabled="False" TextColor="White" />
+        <Label x:Name="Prompt" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3">Sposta l'ultima carta dalla riga</Label>
+        <Entry x:Name="Inizio" Grid.Row="3" Grid.Column="3" Keyboard="Numeric" IsSpellCheckEnabled="False" />
+        <Label x:Name="Prompt1" Grid.Row="3" Grid.Column="4">sulla riga</Label>
+        <Entry x:Name="Fine" Grid.Row="3" Grid.Column="5" Keyboard="Numeric" IsSpellCheckEnabled="False" />
         <Button x:Name="ok" Text="Esegui" Clicked="OnOk_Click" Grid.Row="3" Grid.Column="6" />
-        <Label x:Name="Risultato" Grid.Row="3" Grid.Column="7" Grid.ColumnSpan="2" />
     </Grid>
+    </ContentPage.Content>
 </ContentPage>

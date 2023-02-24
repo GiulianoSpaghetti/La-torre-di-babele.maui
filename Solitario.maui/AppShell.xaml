@@ -6,21 +6,6 @@
     xmlns:local="clr-namespace:Solitario.maui"
     Shell.FlyoutBehavior="Flyout">
 
-    <Shell.FlyoutBackground>
-        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-            <GradientStop Color="#304762" Offset="0.1" />
-            <GradientStop Color="#558574" Offset="0.6" />
-            <GradientStop Color="#73B49D" Offset="1.0" />
-        </LinearGradientBrush>
-    </Shell.FlyoutBackground>
-
-    <Shell.Resources>
-        <ResourceDictionary>
-            <Style TargetType="Label"  Class="FlyoutItemLabelStyle">
-                <Setter Property="TextColor" Value="White" />
-            </Style>
-        </ResourceDictionary>
-    </Shell.Resources>
 
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Shell.TabBarIsVisible="False">
 
