@@ -20,3 +20,4 @@ Apri l'app Hype, fai il login, seleziona PAGAMENTI, INVIA DENARO, seleziona il m
 # Bibliografia
 
 https://medium.com/globant/xamarin-forms-shell-navigation-d1179bfa2e4a
+https://learn.microsoft.com/en-us/dotnet/maui/platform-integration/device/information?view=net-maui-7.0&tabs=windows
