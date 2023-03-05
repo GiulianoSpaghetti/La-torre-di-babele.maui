@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net7.0-windows10.0.22621.0</TargetFrameworks>
-		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.22621.0</TargetFrameworks>
+		<TargetFrameworks>net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
+		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net7.0-tizen</TargetFrameworks> -->
 		<OutputType>Exe</OutputType>
@@ -16,7 +16,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.solitario.maui</ApplicationId>
-		<ApplicationIdGuid>b0013ff8-9b8f-4cc1-bbc5-fd0481d9c254</ApplicationIdGuid>
+		<ApplicationIdGuid>b6a5c907-1820-40db-90c8-b8ae510edfcd</ApplicationIdGuid>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -28,36 +28,60 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
-		<GenerateAppInstallerFile>False</GenerateAppInstallerFile>
-		<AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
-		<PackageCertificateThumbprint>C8ACC0D9FFF8E3E5BA85DB3E0F003F3A825F4E53</PackageCertificateThumbprint>
-		<AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
-		<AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
-		<AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
-		<GenerateTestArtifacts>True</GenerateTestArtifacts>
-		<HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
 	  <ApplicationId>org.altervista.numerone.solitario</ApplicationId>
+	  <ApplicationTitle>La torre di babele</ApplicationTitle>
 	  <ApplicationDisplayVersion>1.6</ApplicationDisplayVersion>
 	  <ApplicationVersion>12</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-android|AnyCPU'">
 	  <ApplicationId>org.altervista.numerone.solitario</ApplicationId>
+	  <ApplicationTitle>La torre di babele</ApplicationTitle>
+	  <ApplicationDisplayVersion>1.6</ApplicationDisplayVersion>
+	  <ApplicationVersion>12</ApplicationVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
+	  <ApplicationId>org.altervista.numerone.solitario</ApplicationId>
+	  <ApplicationTitle>La torre di babele</ApplicationTitle>
+	  <ApplicationDisplayVersion>1.6</ApplicationDisplayVersion>
+	  <ApplicationVersion>12</ApplicationVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-ios|AnyCPU'">
+	  <ApplicationId>org.altervista.numerone.solitario</ApplicationId>
+	  <ApplicationTitle>La torre di babele</ApplicationTitle>
+	  <ApplicationDisplayVersion>1.6</ApplicationDisplayVersion>
+	  <ApplicationVersion>12</ApplicationVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-maccatalyst|AnyCPU'">
+	  <ApplicationId>org.altervista.numerone.solitario</ApplicationId>
+	  <ApplicationTitle>La torre di babele</ApplicationTitle>
+	  <ApplicationDisplayVersion>1.6</ApplicationDisplayVersion>
+	  <ApplicationVersion>12</ApplicationVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-maccatalyst|AnyCPU'">
+	  <ApplicationId>org.altervista.numerone.solitario</ApplicationId>
+	  <ApplicationTitle>La torre di babele</ApplicationTitle>
 	  <ApplicationDisplayVersion>1.6</ApplicationDisplayVersion>
 	  <ApplicationVersion>12</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-windows10.0.19041.0|AnyCPU'">
 	  <ApplicationId>org.altervista.numerone.solitario</ApplicationId>
+	  <ApplicationTitle>La torre di babele</ApplicationTitle>
 	  <ApplicationDisplayVersion>1.6</ApplicationDisplayVersion>
 	  <ApplicationVersion>12</ApplicationVersion>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-windows10.0.19041.0|AnyCPU'">
 	  <ApplicationId>org.altervista.numerone.solitario</ApplicationId>
+	  <ApplicationTitle>La torre di babele</ApplicationTitle>
 	  <ApplicationDisplayVersion>1.6</ApplicationDisplayVersion>
 	  <ApplicationVersion>12</ApplicationVersion>
 	</PropertyGroup>
@@ -81,7 +105,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Maui" Version="5.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
