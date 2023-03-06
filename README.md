@@ -1,5 +1,6 @@
 # Solitario.maui
-La torre di babele in MAUI
+La torre di babele in MAUI.
+Un solitario in cui bisogna ordinare 9 carte e riesce sempre, a patto di spostare le carte più piccole su quelle più grandi, per esempio sul 10 può andare il 2 ma sul 2 non può andare il 5.
 
 # Come installare
 
