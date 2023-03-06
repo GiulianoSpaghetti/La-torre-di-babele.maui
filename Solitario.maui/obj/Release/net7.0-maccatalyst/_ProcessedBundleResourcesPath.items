@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\n0.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\n1.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\n2.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\n3.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\n4.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\n5.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\n6.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\n7.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\n8.png" />
+    <BundleResource Include="C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\obj\Release\net7.0-maccatalyst\resizetizer\r\Resources\n9.png" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net7.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
+  </ItemGroup>
+</Project>

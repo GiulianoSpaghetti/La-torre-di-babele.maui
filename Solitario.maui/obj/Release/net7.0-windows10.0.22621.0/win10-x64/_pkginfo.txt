@@ -1,0 +1,1 @@
+C:\Users\numer\source\Repos\q\Solitario.maui\Solitario.maui\bin\Debug\net7.0-windows10.0.22621.0\win10-x64\AppPackages\Solitario.maui_1.6.0.0_Test\Solitario.maui_1.6.0.0_x64.msix

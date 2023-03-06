@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "haNMXNpyoPn/MLkhGalzcEbLaEbJOsqyj6CmBNGqBTb+mYubKiH3hf/8NtA3X/85oI3Q6OgGV+r5bs2+F5eFrQ==",
+  "dgSpecHash": "FOC0GTN2pev1EfMGPYo8+/8ee0XmX8Lx83RPbcqISU7Qpupg1S4o7FcC2MqlRK3x/cC2eqQpTajwndkkGb/tmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\numer\\source\\Repos\\Solitario.maui\\Solitario.maui\\Solitario.maui.csproj",
+  "projectFilePath": "C:\\Users\\numer\\source\\Repos\\q\\Solitario.maui\\Solitario.maui\\Solitario.maui.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\numer\\.nuget\\packages\\communitytoolkit.maui\\5.0.0\\communitytoolkit.maui.5.0.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\communitytoolkit.maui.core\\5.0.0\\communitytoolkit.maui.core.5.0.0.nupkg.sha512",
     "C:\\Users\\numer\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
@@ -100,7 +102,8 @@
     "C:\\Users\\numer\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.7.20.1\\xamarin.kotlin.stdlib.jdk8.1.7.20.1.nupkg.sha512",
     "C:\\Users\\numer\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
     "C:\\Users\\numer\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
-    "C:\\Users\\numer\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\7.0.3\\microsoft.netcore.app.crossgen2.win-x64.7.0.3.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.28\\microsoft.windows.sdk.net.ref.10.0.22621.28.nupkg.sha512",
     "C:\\Users\\numer\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.3\\microsoft.aspnetcore.app.runtime.win-x64.7.0.3.nupkg.sha512",
     "C:\\Users\\numer\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.3.nupkg.sha512",
     "C:\\Users\\numer\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.3\\microsoft.netcore.app.runtime.win-x64.7.0.3.nupkg.sha512"
