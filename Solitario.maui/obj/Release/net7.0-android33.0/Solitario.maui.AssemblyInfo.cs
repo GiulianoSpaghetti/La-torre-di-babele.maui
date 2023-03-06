@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Solitario.maui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.6.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Solitario.maui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Solitario.maui")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.6.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Android33.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Android28.0")]
 
