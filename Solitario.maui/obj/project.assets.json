@@ -9771,7 +9771,7 @@
         }
       }
     },
-    "net7.0-android33.0/iossimulator-x64": {
+    "net7.0-android33.0/ios-arm64": {
       "CommunityToolkit.Maui/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -18652,7 +18652,7 @@
         }
       }
     },
-    "net7.0-ios16.1/iossimulator-x64": {
+    "net7.0-ios16.1/ios-arm64": {
       "CommunityToolkit.Maui/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -20569,7 +20569,7 @@
         }
       }
     },
-    "net7.0-maccatalyst16.1/iossimulator-x64": {
+    "net7.0-maccatalyst16.1/ios-arm64": {
       "CommunityToolkit.Maui/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -23064,7 +23064,7 @@
         }
       }
     },
-    "net7.0-windows10.0.22621/iossimulator-x64": {
+    "net7.0-windows10.0.22621/ios-arm64": {
       "CommunityToolkit.Maui/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -27709,11 +27709,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\numer\\source\\Repos\\q\\Solitario.maui\\Solitario.maui\\Solitario.maui.csproj",
+      "projectUniqueName": "C:\\Users\\numer\\source\\Repos\\Solitario.maui\\Solitario.maui\\Solitario.maui.csproj",
       "projectName": "Solitario.maui",
-      "projectPath": "C:\\Users\\numer\\source\\Repos\\q\\Solitario.maui\\Solitario.maui\\Solitario.maui.csproj",
+      "projectPath": "C:\\Users\\numer\\source\\Repos\\Solitario.maui\\Solitario.maui\\Solitario.maui.csproj",
       "packagesPath": "C:\\Users\\numer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\numer\\source\\Repos\\q\\Solitario.maui\\Solitario.maui\\obj\\",
+      "outputPath": "C:\\Users\\numer\\source\\Repos\\Solitario.maui\\Solitario.maui\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
@@ -28136,7 +28136,7 @@
       "android-x86": {
         "#import": []
       },
-      "iossimulator-x64": {
+      "ios-arm64": {
         "#import": []
       },
       "maccatalyst-arm64": {

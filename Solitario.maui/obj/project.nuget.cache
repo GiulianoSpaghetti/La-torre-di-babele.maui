@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FOC0GTN2pev1EfMGPYo8+/8ee0XmX8Lx83RPbcqISU7Qpupg1S4o7FcC2MqlRK3x/cC2eqQpTajwndkkGb/tmg==",
+  "dgSpecHash": "P7quwc9/8JsS1/u09WHuDiRuOQxF7ow9LcB2fUUDXV/cUd3iOaBvOhloDlktsrX80WnkkWL5ee5H1kGGEFt7Nw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\numer\\source\\Repos\\q\\Solitario.maui\\Solitario.maui\\Solitario.maui.csproj",
+  "projectFilePath": "C:\\Users\\numer\\source\\Repos\\Solitario.maui\\Solitario.maui\\Solitario.maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\numer\\.nuget\\packages\\communitytoolkit.maui\\5.0.0\\communitytoolkit.maui.5.0.0.nupkg.sha512",
     "C:\\Users\\numer\\.nuget\\packages\\communitytoolkit.maui.core\\5.0.0\\communitytoolkit.maui.core.5.0.0.nupkg.sha512",
