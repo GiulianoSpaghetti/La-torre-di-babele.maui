@@ -370,3 +370,4 @@ C:\Users\numer\source\repos\La torre di babele\La torre di babele\obj\Release\ne
 C:\Users\numer\source\repos\La torre di babele\La torre di babele\obj\Release\net8.0-windows10.0.22621.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\numer\source\repos\La torre di babele\La torre di babele\obj\Release\net8.0-windows10.0.22621.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\numer\source\repos\La torre di babele\La torre di babele\obj\Release\net8.0-windows10.0.22621.0\win10-x64\ProjectArchitectures.txt
+C:\Users\numer\source\repos\La torre di babele\La torre di babele\obj\Release\net8.0-windows10.0.22621.0\win10-x64\La torre di babele.sourcelink.json

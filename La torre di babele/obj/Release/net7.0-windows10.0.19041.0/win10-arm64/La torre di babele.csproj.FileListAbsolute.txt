@@ -335,3 +335,4 @@ C:\Users\numer\source\repos\La torre di babele\La torre di babele\obj\Release\ne
 C:\Users\numer\source\repos\La torre di babele\La torre di babele\obj\Release\net7.0-windows10.0.19041.0\win10-arm64\qualifiers.txt.intermediate
 C:\Users\numer\source\repos\La torre di babele\La torre di babele\obj\Release\net7.0-windows10.0.19041.0\win10-arm64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\numer\source\repos\La torre di babele\La torre di babele\obj\Release\net7.0-windows10.0.19041.0\win10-arm64\ProjectArchitectures.txt
+C:\Users\numer\source\repos\La torre di babele\La torre di babele\obj\Release\net7.0-windows10.0.19041.0\win10-arm64\La torre di babele.sourcelink.json

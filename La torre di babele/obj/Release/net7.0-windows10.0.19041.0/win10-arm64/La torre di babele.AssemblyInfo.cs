@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("La torre di babele")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+661676b931814747621225b521fff2a6d1b92b0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("La torre di babele")]
 [assembly: System.Reflection.AssemblyTitleAttribute("La torre di babele")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
