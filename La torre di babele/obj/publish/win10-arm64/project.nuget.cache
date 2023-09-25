@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "AUPiSyF7XypneV1MV5xMqFPZGolI5/SgOSyd9a5mau6HuIDHORgYOtCvcWNd2vdVSk/RvHdCQO8botRdgEzmPQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\numer\\source\\repos\\La torre di babele\\La torre di babele\\La torre di babele.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\numer\\.nuget\\packages\\communitytoolkit.maui\\5.3.0\\communitytoolkit.maui.5.3.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\communitytoolkit.maui.core\\5.3.0\\communitytoolkit.maui.core.5.3.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.logging.debug\\7.0.0\\microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.5.1\\microsoft.graphics.win2d.1.0.5.1.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.maui.graphics\\7.0.92\\microsoft.maui.graphics.7.0.92.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.92\\microsoft.maui.graphics.win2d.winui.desktop.7.0.92.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\7.0.11\\microsoft.netcore.app.runtime.win-arm64.7.0.11.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\7.0.11\\microsoft.windowsdesktop.app.runtime.win-arm64.7.0.11.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\7.0.11\\microsoft.aspnetcore.app.runtime.win-arm64.7.0.11.nupkg.sha512",
+    "C:\\Users\\numer\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.29\\microsoft.windows.sdk.net.ref.10.0.19041.29.nupkg.sha512"
+  ],
+  "logs": []
+}
