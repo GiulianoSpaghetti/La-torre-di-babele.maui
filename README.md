@@ -3,7 +3,7 @@ La torre di babele in MAUI, un solitario che riesce sempre
 
 ## Video di presentazione
 
-https://www.youtube.com/watch?v=GJVzuW5DDZ8
+https://www.youtube.com/watch?v=4U5dQQQf25U
 
 ## Regole
 
