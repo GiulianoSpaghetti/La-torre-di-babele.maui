@@ -1,0 +1,7 @@
+﻿################################################################################
+# Il file gitignore è stato creato automaticamente da Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/La torre di babele/bin/Debug/net7.0-android
+/La torre di babele/obj
