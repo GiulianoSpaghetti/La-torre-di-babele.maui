@@ -6,7 +6,13 @@ public partial class GreetingsPage : ContentPage
 	{
 		InitializeComponent();
         this.mosse = mosse;
-        msgfine.Text = $"Hai finito il solitario in {mosse} mosse. Vuoi fare una nuova partita?";
+#if ANDROID
+        Title=App.GetResource(La_torre_di_babele.Resource.String.PartitaFinita);
+        msgfine.Text = $"{App.GetResource(La_torre_di_babele.Resource.String.HaiCompletato)} {mosse} {App.GetResource(La_torre_di_babele.Resource.String.GiocareAncora)}?";
+#else
+        Title = App.d["PartitaFinita"] as string;
+        msgfine.Text = $"{App.d["HaiCompletato"]} {mosse} {App.d["GiocareAncora"]}?";
+#endif
 
     }
     private void OnFine_Click(object sender, EventArgs e)
@@ -17,7 +23,7 @@ public partial class GreetingsPage : ContentPage
 
     private async void greetingsShare_Click(object sender, EventArgs e)
     {
-        await Launcher.Default.OpenAsync(new Uri($"https://twitter.com/intent/tweet?text=Ho%20completato%20la%20torre%20di%20babele%20di%20numerone%20in%20{mosse}%20mosse%20su%20piattaforma%20{App.piattaforma}&url=https%3A%2F%2Fgithub.com%2Fnumerunix%2FSolitario.maui"));
+        await Launcher.Default.OpenAsync(new Uri($"https://twitter.com/intent/tweet?text=I%20have%20completed%20numerone%20babel%20tower%20di%20numerone%20in%20{mosse}%20moves%20on%20platform%20{App.piattaforma}&url=https%3A%2F%2Fgithub.com%2Fnumerunix%2FSolitario.maui"));
         condividi.IsEnabled = false;
     }
 

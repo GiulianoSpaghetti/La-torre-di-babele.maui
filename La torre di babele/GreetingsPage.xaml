@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="La_torre_di_babele.GreetingsPage"
-             Title="Solitario Completato"
+             Title=""
              Background="Green">
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -27,7 +27,7 @@
             </Grid.RowDefinitions>
             <Label x:Name="msgfine" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"></Label>
             <Button Text="No" x:Name="greetingsClose" Clicked="OnFine_Click" Grid.Row="4" Grid.Column="1"/>
-            <Button Text="Condividi" x:Name="condividi" Clicked="greetingsShare_Click" Grid.Row="4" Grid.Column="2" />
+            <Button Text="Share" x:Name="condividi" Clicked="greetingsShare_Click" Grid.Row="4" Grid.Column="2" />
         </Grid>
     </ContentPage.Content>
 </ContentPage>

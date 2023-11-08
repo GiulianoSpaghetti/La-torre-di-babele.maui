@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             x:Class="La_torre_di_babele.fr_FR">
+    <system:String x:Key="RigaInizioVuota">La ligne de départ est vide</system:String>
+    <system:String x:Key="RigaFineVuota">La ligne de fin est vide</system:String>
+    <system:String x:Key="RigaInizioNonIntera">La ligne de départ n'est pas un nombre entier</system:String>
+    <system:String x:Key="RigaFineNonIntera">La ligne de fin n'est pas un nombre entier</system:String>
+    <system:String x:Key="RigaInizioFuoriRange">La ligne de départ n'est pas dans la plage sélectionnée</system:String>
+    <system:String x:Key="RigaFineFuoriRange">La ligne de fin n'est pas dans la plage sélectionnée</system:String>
+    <system:String x:Key="RigheUguali">Les index sont égaux</system:String>
+    <system:String x:Key="RigaVuota">La ligne sélectionnée est vide</system:String>
+    <system:String x:Key="OperazioneInvalida">L'opération n'est pas autorisée</system:String>
+    <system:String x:Key="Home">Accueil</system:String>
+    <system:String x:Key="Informations">Informations</system:String>
+    <system:String x:Key="Prompt">Déplacer la carte de la ligne</system:String>
+    <system:String x:Key="Prompt1">à la ligne</system:String>
+    <system:String x:Key="Ok">Ok</system:String>
+    <system:String x:Key="HaiCompletato">Vous avez terminé la tour de Babel solitaire en</system:String>
+    <system:String x:Key="GiocareAncora">se déplace. Voulez-vous rejouer</system:String>
+    <system:String x:Key="PartitaFinita">Game over</system:String>
+    <system:String x:Key="Esci">Quitter</system:String>
+    <system:String x:Key="File">Archive</system:String>
+    <system:String x:Key="Info">?</system:String>
+    <system:String x:Key="NuovaPartita">Nouveau match</system:String>
+</ResourceDictionary>

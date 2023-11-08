@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<string name="RigaInizioVuota">La fila inicial está vacía</string>
+	<string name="RigaFineVuota">La fila final está vacía</string>
+	<string name="RigaInizioNonIntera">La fila inicial no es un número entero</string>
+	<string name="RigaFineNonIntera">La fila final no es un número entero</string>
+	<string name="RigaInizioFuoriRange">La fila inicial no está en el rango seleccionado</string>
+	<string name="RigaFineFuoriRange">La fila final no está en el rango seleccionado</string>
+	<string name="RigheUguali">Los índices son iguales</string>
+	<string name="RigaVuota">La fila seleccionada está vacía</string>
+	<string name="OperazioneInvalida">La operación no está permitida</string>
+	<string name="Home">Inicio</string>
+	<string name="Informazioni">Informaciones</string>
+	<string name="Prompt">Mover la tarjeta de la línea</string>
+	<string name="Prompt1">a la línea</string>
+	<string name="Ok">Aceptar</string>
+	<string name="HaiCompletato">Completaste el solitario torre de babel en</string>
+	<string name="GiocareAncora">se mueve. ¿Quieres volver a jugar</string>
+	<string name="PartitaFinita">Juego terminado</string>
+</resources>

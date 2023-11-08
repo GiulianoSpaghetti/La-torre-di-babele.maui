@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             x:Class="La_torre_di_babele.en_US">
+    <system:String x:Key="RigaInizioVuota">The starting row is empty</system:String>
+    <system:String x:Key="RigaFineVuota">The ending row is empty</system:String>
+    <system:String x:Key="RigaInizioNonIntera">The starting row is not integer</system:String>
+    <system:String x:Key="RigaFineNonIntera">The ending row is not integer</system:String>
+    <system:String x:Key="RigaInizioFuoriRange">The starting row is not in selected range</system:String>
+    <system:String x:Key="RigaFineFuoriRange">The ending row is not in selected range</system:String>
+    <system:String x:Key="RigheUguali">The indexes are equal</system:String>
+    <system:String x:Key="RigaVuota">The selected row is empty</system:String>
+    <system:String x:Key="OperazioneInvalida">The operation is not allowed</system:String>
+    <system:String x:Key="Home">Home</system:String>
+    <system:String x:Key="Informazioni">Informations</system:String>
+    <system:String x:Key="Prompt">Move the card from the line</system:String>
+    <system:String x:Key="Prompt1">to the line</system:String>
+    <system:String x:Key="Ok">Ok</system:String>
+    <system:String x:Key="HaiCompletato">You completed the solitaire babel tower in</system:String>
+    <system:String x:Key="GiocareAncora">moves. Do you want to play again</system:String>
+    <system:String x:Key="PartitaFinita">Game over</system:String>
+    <system:String x:Key="NuovaPartita">New Game</system:String>
+    <system:String x:Key="Esci">Exit</system:String>
+    <system:String x:Key="File">File</system:String>
+    <system:String x:Key="Info">?</system:String>
+</ResourceDictionary>

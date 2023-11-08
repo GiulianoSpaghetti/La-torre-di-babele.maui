@@ -4,12 +4,12 @@
              x:Class="La_torre_di_babele.MainPage"
              Background="Green">
     <ContentPage.MenuBarItems>
-        <MenuBarItem Text="File">
-            <MenuFlyoutItem Text="Nuova Partita" Clicked="OnNuovaPartita_Click" />
-            <MenuFlyoutItem Text="Esci" Clicked="OnFine_Click" />
+        <MenuBarItem x:Name="mnFile">
+            <MenuFlyoutItem x:Name="mnNuovaPartita" Clicked="OnNuovaPartita_Click" />
+            <MenuFlyoutItem x:Name="mnEsci" Clicked="OnFine_Click" />
         </MenuBarItem>
-        <MenuBarItem Text="?">
-            <MenuFlyoutItem Text="Informazioni" Clicked="OnInfo_Click" />
+        <MenuBarItem x:Name="mnInfo">
+            <MenuFlyoutItem x:Name="mnInformazioni" Clicked="OnInfo_Click" />
         </MenuBarItem>
     </ContentPage.MenuBarItems>
     <ContentPage.Resources>
@@ -52,11 +52,11 @@
             <Image x:Name="carta7" Grid.Row="0" Grid.Column="6" IsVisible="false" Source="n7.png"/>
             <Image x:Name="carta8" Grid.Row="0" Grid.Column="7" IsVisible="false" Source="n8.png"/>
             <Image x:Name="carta9" Grid.Row="0" Grid.Column="8" IsVisible="false" Source="n9.png"/>
-            <Label x:Name="Prompt" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3">Sposta l'ultima carta dalla riga</Label>
+            <Label x:Name="Prompt" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3"></Label>
             <Entry x:Name="Inizio" Grid.Row="3" Grid.Column="3" Keyboard="Numeric" IsSpellCheckEnabled="False" />
-            <Label x:Name="Prompt1" Grid.Row="3" Grid.Column="4">sulla riga</Label>
+            <Label x:Name="Prompt1" Grid.Row="3" Grid.Column="4"></Label>
             <Entry x:Name="Fine" Grid.Row="3" Grid.Column="5" Keyboard="Numeric" IsSpellCheckEnabled="False" />
-            <Button x:Name="ok" Text="Esegui" Clicked="OnOk_Click" Grid.Row="3" Grid.Column="6" />
+            <Button x:Name="Ok" Clicked="OnOk_Click" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="6" />
         </Grid>
     </ContentPage.Content>
 </ContentPage>

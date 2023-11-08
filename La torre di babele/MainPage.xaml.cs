@@ -17,7 +17,20 @@ namespace La_torre_di_babele
             vettore = new UInt16[30];
             ElaboratoreCarteSolitario e = new ElaboratoreCarteSolitario();
             Mazzo m = new Mazzo(e);
-
+#if ANDROID
+            Prompt.Text = App.GetResource(La_torre_di_babele.Resource.String.Prompt);
+            Prompt1.Text=App.GetResource(La_torre_di_babele.Resource.String.Prompt1);
+            Ok.Text=App.GetResource(La_torre_di_babele.Resource.String.Ok);
+#else
+            Prompt.Text = App.d["Prompt"] as string;
+            Prompt1.Text = App.d["Prompt1"] as string;
+            Ok.Text=App.d["Ok"] as string;
+            mnFile.Text=App.d["File"] as string;
+            mnNuovaPartita.Text=App.d["NuovaPartita"] as string;
+            mnEsci.Text=App.d["Esci"] as string;
+            mnInfo.Text=App.d["Info"] as string;
+            mnInformazioni.Text=App.d["Informazioni"] as string;
+#endif
             UInt16 c;
             Image img;
             for (UInt16 i = 0; i < 9; i++)
@@ -44,9 +57,22 @@ namespace La_torre_di_babele
         {
             UInt16 inizio, fine;
             int a = 0, b = 0;
-            if (Inizio.Text == null || Inizio.Text == "") { Snackbar.Make("La riga di inizio è vuota").Show(cancellationTokenSource.Token); return; }
+            if (Inizio.Text == null || Inizio.Text == "") {
+                Snackbar.Make(
+#if ANDROID
+                    App.GetResource(La_torre_di_babele.Resource.String.RigaInizioVuota)
+#else
+                    App.d["RigaInizioVuota"] as string
+#endif
+                    ).Show(cancellationTokenSource.Token); return; }
 
-            if (Fine.Text == null || Fine.Text == "") { Snackbar.Make("La riga di fine è vuota").Show(cancellationTokenSource.Token); return; }
+            if (Fine.Text == null || Fine.Text == "") { Snackbar.Make(
+#if ANDROID
+                    App.GetResource(La_torre_di_babele.Resource.String.RigaFineVuota)
+#else
+                    App.d["RigaFineVuota"] as string
+#endif
+                    ).Show(cancellationTokenSource.Token); return; }
 
             try
             {
@@ -54,7 +80,13 @@ namespace La_torre_di_babele
             }
             catch (FormatException ex)
             {
-                Snackbar.Make("La riga di inizio non è intera").Show(cancellationTokenSource.Token); return;
+                Snackbar.Make(
+#if ANDROID
+                    App.GetResource(La_torre_di_babele.Resource.String.RigaInizioNonIntera)
+#else
+                    App.d["RigaInizioNonIntera"] as string
+#endif
+                    ).Show(cancellationTokenSource.Token); return;
             }
             inizio--;
             try
@@ -63,12 +95,36 @@ namespace La_torre_di_babele
             }
             catch (FormatException ex)
             {
-                Snackbar.Make("La riga di fine non è intera").Show(cancellationTokenSource.Token); return;
+                Snackbar.Make(
+#if ANDROID
+                    App.GetResource(La_torre_di_babele.Resource.String.RigaFineNonIntera)
+#else
+                    App.d["RigaFineNonIntera"] as string
+#endif
+                    ).Show(cancellationTokenSource.Token); return;
             }
             fine--;
-            if (inizio > 2) { Snackbar.Make("La riga di inizio non è nel range stabilito").Show(cancellationTokenSource.Token); return; }
-            if (fine > 2) { Snackbar.Make("La riga di fine non è nel range stabilito").Show(cancellationTokenSource.Token); return; }
-            if (inizio == fine) { Snackbar.Make("Le righe coincidono").Show(cancellationTokenSource.Token); return; }
+            if (inizio > 2) { Snackbar.Make(
+#if ANDROID
+                    App.GetResource(La_torre_di_babele.Resource.String.RigaInizioFuoriRange)
+#else
+                    App.d["RigaInizioFuoriRange"] as string
+#endif
+                    ).Show(cancellationTokenSource.Token); return; }
+            if (fine > 2) { Snackbar.Make(
+#if ANDROID
+                    App.GetResource(La_torre_di_babele.Resource.String.RigaFineFuoriRange)
+#else
+                    App.d["RigaFineFuoriRange"] as string
+#endif
+                    ).Show(cancellationTokenSource.Token); return; }
+            if (inizio == fine) { Snackbar.Make(
+#if ANDROID
+                    App.GetResource(La_torre_di_babele.Resource.String.RigheUguali)
+#else
+                    App.d["RigheUguali"] as string
+#endif
+                    ).Show(cancellationTokenSource.Token); return; }
             switch (inizio)
             {
                 case 0: a = i; break;
@@ -84,10 +140,22 @@ namespace La_torre_di_babele
             Image c;
             if (a == -1)
             {
-                Snackbar.Make("La riga selezionata è vuota").Show(cancellationTokenSource.Token); return;
+                Snackbar.Make(
+#if ANDROID
+                    App.GetResource(La_torre_di_babele.Resource.String.RigaVuota)
+#else
+                    App.d["RigaVuota"] as string
+#endif
+                    ).Show(cancellationTokenSource.Token); return;
             }
             c = (Image)this.FindByName("carta" + vettore[inizio * 10 + a]);
-            if (b != -1 && vettore[inizio * 10 + a] > vettore[fine * 10 + b]) { Snackbar.Make("Operazione non consentita").Show(cancellationTokenSource.Token); return; }
+            if (b != -1 && vettore[inizio * 10 + a] > vettore[fine * 10 + b]) { Snackbar.Make(
+#if ANDROID
+                    App.GetResource(La_torre_di_babele.Resource.String.OperazioneInvalida)
+#else
+                    App.d["OperazioneInvalida"] as string
+#endif
+            ).Show(cancellationTokenSource.Token); return; }
             vettore[fine * 10 + b + 1] = vettore[inizio * 10 + a];
             vettore[inizio * 10 + a] = 0;
             Applicazione.SetRow(c, fine);
