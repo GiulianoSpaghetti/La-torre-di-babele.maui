@@ -1,3 +1,5 @@
+# ATTENZIONE: la traduzione italiana se l'è comprata Francesco Sbordone. La sua inclusione in qualsiasi progetto di terze parti è illegale, perché l'ha resa proprietaria.
+
 ## La-torre-di-babele.maui
 La torre di babele in MAUI, un solitario che riesce sempre
 
