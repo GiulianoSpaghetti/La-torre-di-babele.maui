@@ -13,9 +13,7 @@ https://www.youtube.com/watch?v=4U5dQQQf25U
 http://www.solitariconlecarte.it/gioca_on_line15.htm
 
 ## Su Android
-Per gli italiani: [![google](https://play.google.com/intl/it_it/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.solitario)
-
-For the whole world, except the states that cannot import from united states: [![google](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.towerofbabel)
+[![google](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.towerofbabel)
 
 ## Donazioni
 
