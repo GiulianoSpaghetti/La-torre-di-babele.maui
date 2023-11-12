@@ -3,9 +3,8 @@
 ################################################################################
 
 /.vs
-/La-torre-di-babele/bin/Debug
-/La-torre-di-babele/obj
-/La-torre-di-babele/Platforms/Android/Resources/values-it
-/La-torre-di-babele/it_IT.xaml
-/La-torre-di-babele/it_IT.xaml.cs
-/La-torre-di-babele/bin/Release
+/TowerOfBabel/bin/Debug/net8.0-windows10.0.19041.0/win10-x64
+/TowerOfBabel/obj
+/TowerOfBabel/Platforms/Android/Resources/values-it
+/TowerOfBabel/it_IT.xaml
+/TowerOfBabel/it_IT.xaml.cs
