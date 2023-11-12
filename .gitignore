@@ -3,6 +3,8 @@
 ################################################################################
 
 /.vs
-/La torre di babele/bin/Debug/net7.0-android
-/La torre di babele/obj
-/La torre di babele/bin/Debug/net8.0-windows10.0.22621.0/win10-x64
+/La-torre-di-babele/bin/Debug
+/La-torre-di-babele/obj
+/La-torre-di-babele/Platforms/Android/Resources/values-it
+/La-torre-di-babele/it_IT.xaml
+/La-torre-di-babele/it_IT.xaml.cs
