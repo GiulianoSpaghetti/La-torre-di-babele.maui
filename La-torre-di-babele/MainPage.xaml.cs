@@ -322,6 +322,7 @@ namespace La_torre_di_babele
         private void NuovaPartita()
         {
             int a = 0, b = 0;
+            mosse = 0;
             ElaboratoreCarteSolitario el = new ElaboratoreCarteSolitario();
             Mazzo m = new Mazzo(el);
 
