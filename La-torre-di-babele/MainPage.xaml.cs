@@ -353,12 +353,12 @@ namespace La_torre_di_babele
                 img = (Image)FindByName($"carta{i}");
                 Applicazione.SetColumn(img, b);
                 Applicazione.SetRow(img, a);
-                if (i % 5 == 0)
+                if (a==8)
                 {
                     a = 3;
                     b++;
                 }
-                else
+                else 
                     a++;
             }
         }
