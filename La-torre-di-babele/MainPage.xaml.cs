@@ -134,14 +134,10 @@ namespace La_torre_di_babele
                 vettore[a] = c;
                 Applicazione.SetColumn(im1,3);
                 Applicazione.SetRow(im1, 0);
-                Applicazione.SetRow(img, (b+1)%9);
-                Applicazione.SetColumn(img, (b+1) / 9);
-                Applicazione.SetColumn(im1, a/9);
-                Applicazione.SetRow(im1, a%9);
-                img = null;
-                mosse++;
-                if (b % 9 == 7)
+                if ((b + 1) % 8 == 0)
                 {
+                    Applicazione.SetRow(img, 8);
+                    Applicazione.SetColumn(img, (b+1)/9);
                     bool continua = true;
                     UInt16 x = 0;
                     if (vettore[0] == 9)
@@ -162,149 +158,17 @@ namespace La_torre_di_babele
                         NuovaPartita();
                     }
                 }
+                else
+                {
+                    Applicazione.SetRow(img, (b+1)%9);
+                    Applicazione.SetColumn(img, (b+1)/9);
+                }
+                Applicazione.SetColumn(im1, a/9);
+                Applicazione.SetRow(im1, a%9);
+                img = null;
+                mosse++;
             }
         }
-
-        /*        private void OnOk_Click(object sender, EventArgs e)
-                {
-                    UInt16 inizio, fine;
-                    int a = 0, b = 0;
-                    if (Inizio.Text == null || Inizio.Text == "") {
-                        Snackbar.Make(
-#if ANDROID
-                            App.GetResource(La_torre_di_babele.Resource.String.RigaInizioVuota)
-#else
-                            App.d["RigaInizioVuota"] as string
-#endif
-                            ).Show(cancellationTokenSource.Token); return; }
-
-                    if (Fine.Text == null || Fine.Text == "") { Snackbar.Make(
-#if ANDROID
-                            App.GetResource(La_torre_di_babele.Resource.String.RigaFineVuota)
-#else
-                            App.d["RigaFineVuota"] as string
-#endif
-                            ).Show(cancellationTokenSource.Token); return; }
-
-                    try
-                    {
-                        inizio = UInt16.Parse(Inizio.Text);
-                    }
-                    catch (FormatException ex)
-                    {
-                        Snackbar.Make(
-#if ANDROID
-                            App.GetResource(La_torre_di_babele.Resource.String.RigaInizioNonIntera)
-#else
-                            App.d["RigaInizioNonIntera"] as string
-#endif
-                            ).Show(cancellationTokenSource.Token); return;
-                    }
-                    inizio--;
-                    try
-                    {
-                        fine = UInt16.Parse(Fine.Text);
-                    }
-                    catch (FormatException ex)
-                    {
-                        Snackbar.Make(
-#if ANDROID
-                            App.GetResource(La_torre_di_babele.Resource.String.RigaFineNonIntera)
-#else
-                            App.d["RigaFineNonIntera"] as string
-#endif
-                            ).Show(cancellationTokenSource.Token); return;
-                    }
-                    fine--;
-                    if (inizio > 2) { Snackbar.Make(
-#if ANDROID
-                            App.GetResource(La_torre_di_babele.Resource.String.RigaInizioFuoriRange)
-#else
-                            App.d["RigaInizioFuoriRange"] as string
-#endif
-                            ).Show(cancellationTokenSource.Token); return; }
-                    if (fine > 2) { Snackbar.Make(
-#if ANDROID
-                            App.GetResource(La_torre_di_babele.Resource.String.RigaFineFuoriRange)
-#else
-                            App.d["RigaFineFuoriRange"] as string
-#endif
-                            ).Show(cancellationTokenSource.Token); return; }
-                    if (inizio == fine) { Snackbar.Make(
-#if ANDROID
-                            App.GetResource(La_torre_di_babele.Resource.String.RigheUguali)
-#else
-                            App.d["RigheUguali"] as string
-#endif
-                            ).Show(cancellationTokenSource.Token); return; }
-                    switch (inizio)
-                    {
-                        case 0: a = i; break;
-                        case 1: a = j; break;
-                        case 2: a = k; break;
-                    }
-                    switch (fine)
-                    {
-                        case 0: b = i; break;
-                        case 1: b = j; break;
-                        case 2: b = k; break;
-                    }
-                    Image c;
-                    if (a == -1)
-                    {
-                        Snackbar.Make(
-#if ANDROID
-                            App.GetResource(La_torre_di_babele.Resource.String.RigaVuota)
-#else
-                            App.d["RigaVuota"] as string
-#endif
-                            ).Show(cancellationTokenSource.Token); return;
-                    }
-                    c = (Image)this.FindByName("carta" + vettore[inizio * 10 + a]);
-                    if (b != -1 && vettore[inizio * 10 + a] > vettore[fine * 10 + b]) { Snackbar.Make(
-#if ANDROID
-                            App.GetResource(La_torre_di_babele.Resource.String.OperazioneInvalida)
-#else
-                            App.d["OperazioneInvalida"] as string
-#endif
-                    ).Show(cancellationTokenSource.Token); return; }
-                    vettore[fine * 10 + b + 1] = vettore[inizio * 10 + a];
-                    vettore[inizio * 10 + a] = 0;
-                    Applicazione.SetRow(c, fine);
-                    Applicazione.SetColumn(c, b + 1);
-                    switch (inizio)
-                    {
-                        case 0: i = --a; break;
-                        case 1: j = --a; break;
-                        case 2: k = --a; break;
-                    }
-                    switch (fine)
-                    {
-                        case 0: i = ++b; break;
-                        case 1: j = ++b; break;
-                        case 2: k = ++b; break;
-                    }
-                    mosse++;
-                    if (b == 8)
-                    {
-                        if (vettore[0] != 0) i = 0;
-                        else if (vettore[10] != 0) i = 10;
-                        else if (vettore[20] != 0) i = 20;
-                        bool continua = true;
-                        UInt16 x = 0;
-                        while (continua && x < b - 1)
-                        {
-                            if (vettore[i + x] < vettore[i + x + 1])
-                                continua = false;
-                            x++;
-                        }
-                        if (continua)
-                        {
-                            Navigation.PushAsync(new GreetingsPage(mosse));
-                            NuovaPartita();
-                        }
-                    }
-                }*/
 
         private void OnFine_Click(object sender, EventArgs e)
         {

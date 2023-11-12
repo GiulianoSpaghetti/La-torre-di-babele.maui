@@ -13,7 +13,7 @@
     <ContentPage.Content>
         <VerticalStackLayout>
             <Label>ⓒ Giulio Sorrentino 2023 some right reserved</Label>
-            <Label>Babel Tower v 1.6</Label>
+            <Label>Solitarie: Tower of Babel v 2.0</Label>
             <Label>The solitaire the tower of babel consists in putting all cards in decreasing order in only one row, moving the lowers on the highers in any manner</Label>
             <Label>The images of cards are property of Modiano</Label>
             <Label>The .NET Framework, the C# and the MAUI are property of Microsoft Corporation.</Label>
