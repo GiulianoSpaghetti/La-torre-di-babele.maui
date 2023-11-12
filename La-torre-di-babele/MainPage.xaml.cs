@@ -82,11 +82,10 @@ namespace La_torre_di_babele
         }
         private void Image_Tapped1(object Sender, EventArgs arg)
         {
-            mosse++;
             bool found = false;
-/*            if (img == null)
-                return;*/
-            UInt16 i=0, j, k;
+            UInt16 i = 0, j;
+            if (img == null)
+                return;
             Image im0 = (Image)Sender, im1=null;
             for (i = 10; i < 27 && !found; i++)
             {
@@ -139,6 +138,8 @@ namespace La_torre_di_babele
                 Applicazione.SetColumn(img, (b+1) / 9);
                 Applicazione.SetColumn(im1, a/9);
                 Applicazione.SetRow(im1, a%9);
+                img = null;
+                mosse++;
                 if (b % 9 == 7)
                 {
                     bool continua = true;

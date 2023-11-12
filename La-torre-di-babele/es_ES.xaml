@@ -3,20 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:system="clr-namespace:System;assembly=mscorlib"
              x:Class="La_torre_di_babele.es_ES">
-    <system:String x:Key="RigaInizioVuota">La fila inicial está vacía</system:String>
-    <system:String x:Key="RigaFineVuota">La fila final está vacía</system:String>
-    <system:String x:Key="RigaInizioNonIntera">La fila inicial no es un número entero</system:String>
-    <system:String x:Key="RigaFineNonIntera">La fila final no es un número entero</system:String>
-    <system:String x:Key="RigaInizioFuoriRange">La fila inicial no está en el rango seleccionado</system:String>
-    <system:String x:Key="RigaFineFuoriRange">La fila final no está en el rango seleccionado</system:String>
-    <system:String x:Key="RigheUguali">Los índices son iguales</system:String>
-    <system:String x:Key="RigaVuota">La fila seleccionada está vacía</system:String>
-    <system:String x:Key="OperazioneInvalida">La operación no está permitida</system:String>
     <system:String x:Key="Home">Inicio</system:String>
     <system:String x:Key="Informazioni">Informaciones</system:String>
-    <system:String x:Key="Prompt">Mover la tarjeta de la línea</system:String>
-    <system:String x:Key="Prompt1">a la línea</system:String>
-    <system:String x:Key="Ok">Aceptar</system:String>
     <system:String x:Key="HaiCompletato">Completaste el solitario torre de babel en</system:String>
     <system:String x:Key="GiocareAncora">se mueve. ¿Quieres volver a jugar</system:String>
     <system:String x:Key="PartitaFinita">Juego terminado</system:String>

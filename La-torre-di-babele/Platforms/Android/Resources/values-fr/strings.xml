@@ -1,19 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-	<string name="RigaInizioVuota">La ligne de départ est vide</string>
-	<string name="RigaFineVuota">La ligne de fin est vide</string>
-	<string name="RigaInizioNonIntera">La ligne de départ n\'est pas un nombre entier</string>
-	<string name="RigaFineNonIntera">La ligne de fin n\'est pas un nombre entier</string>
-	<string name="RigaInizioFuoriRange">La ligne de départ n\'est pas dans la plage sélectionnée</string>
-	<string name="RigaFineFuoriRange">La ligne de fin n\'est pas dans la plage sélectionnée</string>
-	<string name="RigheUguali">Les index sont égaux</string>
-	<string name="RigaVuota">La ligne sélectionnée est vide</string>
-	<string name="OperazioneInvalida">L\'opération n\'est pas autorisée</string>
 	<string name="Home">Accueil</string>
 	<string name="Informations">Informations</string>
-	<string name="Prompt">Déplacer la carte de la ligne</string>
-	<string name="Prompt1">à la ligne</string>
-	<string name="Ok">Ok</string>
 	<string name="HaiCompletato">Vous avez terminé la tour de Babel solitaire en</string>
 	<string name="GiocareAncora">se déplace. Voulez-vous rejouer</string>
 	<string name="PartitaFinita">Game over</string>
