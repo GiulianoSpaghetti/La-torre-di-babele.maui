@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<resources>
-	<string name="Home">Accueil</string>
-	<string name="Informazioni">Informations</string>
-	<string name="HaiCompletato">Vous avez terminé la tour de Babel solitaire en</string>
-	<string name="GiocareAncora">se déplace. Voulez-vous rejouer</string>
-	<string name="PartitaFinita">Game over</string>
-</resources>
-
