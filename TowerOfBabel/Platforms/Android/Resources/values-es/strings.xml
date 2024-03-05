@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<resources>
-	<string name="Home">Inicio</string>
-	<string name="Informazioni">Informaciones</string>
-	<string name="HaiCompletato">Completaste el solitario torre de babel en</string>
-	<string name="GiocareAncora">se mueve. ¿Quieres volver a jugar</string>
-	<string name="PartitaFinita">Juego terminado</string>
-</resources>
