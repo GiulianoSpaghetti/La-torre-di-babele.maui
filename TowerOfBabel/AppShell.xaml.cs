@@ -5,10 +5,8 @@
         public AppShell()
         {
             InitializeComponent();
-#if ANDROID
-            Home.Title = App.GetResource(TowerOfBabel.Resource.String.Home);
-            Informazioni.Title=App.GetResource(TowerOfBabel.Resource.String.Informazioni);
-#endif
+            Home.Title = App.d["Home"] as string;
+            Informazioni.Title=App.d["Informazioni"] as string;
         }
     }
 }

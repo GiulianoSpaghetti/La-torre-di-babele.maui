@@ -15,17 +15,15 @@ namespace TowerOfBabel
             UInt16 a = 0, b = 0, c=10;
             InitializeComponent();
             vettore = new UInt16[27];
-            ElaboratoreCarteSolitario e = new ElaboratoreCarteSolitario();
+            ElaboratoreCarteBriscola e = new ElaboratoreCarteBriscola(true, 9, 1, 9);
             Mazzo m = new Mazzo(e);
-#if ANDROID
-            ;
-#else
+            CartaHelperSolitario chs = new CartaHelperSolitario();
+            Carta.Inizializza(10, chs, "", "", "", "");
             mnFile.Text=App.d["File"] as string;
             mnNuovaPartita.Text=App.d["NuovaPartita"] as string;
             mnEsci.Text=App.d["Esci"] as string;
             mnInfo.Text=App.d["Info"] as string;
             mnInformazioni.Text=App.d["Informazioni"] as string;
-#endif
             gesture = new TapGestureRecognizer();
             gesture.Tapped += Image_Tapped;
             gesture1 = new TapGestureRecognizer();
@@ -184,8 +182,8 @@ namespace TowerOfBabel
         {
             int a = 0, b = 0;
             mosse = 0;
-            ElaboratoreCarteSolitario el = new ElaboratoreCarteSolitario();
-            Mazzo m = new Mazzo(el);
+            ElaboratoreCarteBriscola e = new ElaboratoreCarteBriscola(true, 9, 1, 9);
+            Mazzo m = new Mazzo(e);
 
             UInt16 c;
             Image img;

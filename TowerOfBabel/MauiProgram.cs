@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-
-namespace TowerOfBabel
+﻿namespace TowerOfBabel
 {
     public static class MauiProgram
     {
