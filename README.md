@@ -11,6 +11,10 @@ https://1drv.ms/u/s!ApmOB0x2yBN0ktN1CwjstPrhfHdCzw?e=5qDbK0
 
 [![google](https://play.google.com/intl/it_it/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=org.altervista.numerone.towerofbabel)
 
+## Bug noti
+
+Accatastando tutte le carte sulla colonna di destra risulta impossibile finire il solitario.
+
 
 ## Donazioni
 
