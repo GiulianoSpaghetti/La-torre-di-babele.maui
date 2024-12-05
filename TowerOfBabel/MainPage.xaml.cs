@@ -17,7 +17,7 @@ namespace TowerOfBabel
             vettore = new UInt16[27];
             ElaboratoreCarteBriscola e = new ElaboratoreCarteBriscola(true, 9, 1, 9);
             Mazzo m = new Mazzo(e);
-            CartaHelperSolitario chs = new CartaHelperSolitario();
+            org.altervista.numerone.framework.solitario.CartaHelper chs = new org.altervista.numerone.framework.solitario.CartaHelper();
             Carta.Inizializza(10, chs, "", "", "", "");
             mnFile.Text=App.d["File"] as string;
             mnNuovaPartita.Text=App.d["NuovaPartita"] as string;
@@ -85,7 +85,7 @@ namespace TowerOfBabel
             if (img == null)
                 return;
             Image im0 = (Image)Sender, im1=null;
-            for (i = 10; i < 27 && !found; i++)
+            for (i = 10; i < 28 && !found; i++)
             {
                im1 = (Image)FindByName("carta" + i);
                if (im0.Id == im1.Id)
