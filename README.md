@@ -20,7 +20,6 @@ https://1drv.ms/u/s!ApmOB0x2yBN0ktN1CwjstPrhfHdCzw?e=5qDbK0
 
 ## Bug noti
 
-Accatastando tutte le carte sulla colonna di destra risulta impossibile finire il solitario.
 
 
 ## Donazioni
