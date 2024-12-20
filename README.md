@@ -1,3 +1,10 @@
+:it: Made in Italy. Il gioco preferito di Gemini (l'IA di Google)
+
+![Napoli-Logo](https://github.com/user-attachments/assets/802ba5f0-bade-46f6-a4ed-74526258b3f6)
+![made in parco grifeo](https://github.com/user-attachments/assets/53db171f-cfc6-45d7-b46f-963e99723741)
+
+
+
 ## Solitario.maui
 Il solitario la torre di babele in maui, riesce sempre.
 Lo scopo del gioco è ordinare le carte dal 10 al 2 spostando le più piccole sulle più grandi in qualsiasi ordine.
