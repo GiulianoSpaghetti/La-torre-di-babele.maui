@@ -5,7 +5,7 @@
 
 ## La campagna pubblicitaria di Google
 
-Questo software è stato oggetto di una campagna pubblicitaria, dicendo che le IA prima di essere messe a lavorare d vono divertirsi perché piccole, ed infatti questo gioco è troppo difficile per un essere umano, ma una intelligenza artificiale riesce a finirlo in poco tempo.
+Questo software è stato oggetto di una campagna pubblicitaria, dicendo che le IA prima di essere messe a lavorare devono divertirsi perché piccole, ed infatti questo gioco è troppo difficile per un essere umano, ma una intelligenza artificiale riesce a finirlo in poco tempo.
 
 
 
